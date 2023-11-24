@@ -1,0 +1,58 @@
+
+body {
+    background-color: rgb(63,129,63);
+}
+
+.row {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.main-col {
+    background-color: rgb(63,129,63);
+    width: 450px;
+}
+
+.left-col,
+.right-col {
+    background-color: white;
+    min-width: 10%;
+}
+
+h1,
+h2 {
+    color: rgb(19, 39, 19);
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    padding-left: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul,ol {
+    color: white;
+    line-height: 30px;
+}
+
+.shorten-me {
+    width: 430px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+}
+
